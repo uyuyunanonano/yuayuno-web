@@ -1,0 +1,96 @@
+/* 全体のスタイル */
+body {
+    font-family: 'Hachi Maru Pop', sans-serif; /* Hachi Maru Pop フォントを適用 */
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/background.webp'); /* 背景画像 */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #4f4f4f; /* テキストの色 */
+}
+
+/* コンテナのスタイル */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* 半透明の白背景 */
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* 柔らかい影 */
+}
+
+/* ヘッダー */
+header h1 {
+    font-family: 'Hachi Maru Pop', sans-serif; /* タイトルにもHachi Maru Popを適用 */
+    font-size: 4em;
+    color: #f8a7b4; /* 少し濃いピンク */
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* 文字の影 */
+}
+
+/* 自己紹介セクション */
+.intro {
+    background: rgba(255, 255, 255, 0.7); /* 背景を半透明の白 */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* 柔らかい影 */
+}
+
+/* プロフィール画像 */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* 丸い画像にする */
+    object-fit: cover; /* 画像が枠に収まるように */
+    margin-bottom: 20px; /* 画像の下にスペースを追加 */
+}
+
+/* 自己紹介文 */
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #4f4f4f; /* 文字色 */
+}
+
+/* ボタン */
+button {
+    background-color: #f8a7b4; /* ボタンの背景色 */
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* ボタンのホバー時 */
+button:hover {
+    background-color: #f98fb7; /* ホバー時に少し濃くなる */
+}
+
+/* フッター */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #f8a7b4;
+    text-align: center;
+}
+
+/* スクロールバーのカスタマイズ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f8a7b4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+}
