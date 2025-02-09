@@ -1,8 +1,11 @@
 services:
   - type: web
     name: yuayuno-web
-    env: python
-    region: Oregon
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    branch: main
     plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "uvicorn --port $PORT --host 0.0.0.0 main:app"
+    region: oregon
+    git:
+      repo: https://github.com/uyuyunanonano/yuayuno-web
