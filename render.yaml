@@ -7,5 +7,3 @@ services:
     branch: main
     plan: free
     region: oregon
-    git:
-      repo: https://github.com/uyuyunanonano/yuayuno-web
